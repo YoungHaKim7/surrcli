@@ -1,0 +1,2 @@
+# surrcli
+SurrealCLI(SurrealDB CLI)
