@@ -4,7 +4,7 @@ SurrealCLI(SurrealDB CLI)
 # Run
 
 ```bash
-cargo r --release -- --user root --pass root --comple 0
+cargo r --release -- --user root --pass root --comple 5
 ```
 
 # Install
