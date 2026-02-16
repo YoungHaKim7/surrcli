@@ -1,0 +1,40 @@
+[package]
+name = "surrcli"
+version = "0.1.0"
+edition = "2024"
+description = "SurrealCLI is client command line tool for managing SurrealDB"
+
+[dependencies]
+# CLI
+clap = { version = "4.5", features = ["derive"] }
+rustyline = "14.0"
+rpassword = "7.3"
+
+# HTTP
+reqwest = { version = "0.12", features = ["json", "blocking"] }
+base64 = "0.22"
+
+# JSON
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Database
+rusqlite = { version = "0.32", features = ["bundled"] }
+
+# Tables
+comfy-table = "7.1"
+
+# Colors/terminal
+colored = "2.1"
+atty = "0.2"
+
+# Path utilities
+dirs = "5.0"
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Runtime
+tokio = { version = "1.40", features = ["full"] }
+
